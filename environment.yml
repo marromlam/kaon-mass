@@ -1,0 +1,13 @@
+name: kmass
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python 3.8.12
+  - gcc_linux-64 7.5.0
+  - gxx_linux-64 7.5.0
+  - boost
+  - ROOT
+  - pocl
+  - pyopencl
+  - reikna
