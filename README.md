@@ -1,4 +1,4 @@
-# kaon_mass
+# K+ mass measurement
 
 K+ mass measurement
 
@@ -40,6 +40,7 @@ There is only one script to run, so it is easy:
 ```bash
 pyton fitter_ipatia_extended.py
 ```
+It takes 4 minutes in a M1 Macbook Air processor using CPU.
 
 
 
