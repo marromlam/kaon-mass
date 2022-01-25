@@ -253,7 +253,6 @@ def fcn(parameters, x, y, z):
 pars.unlock('beta')
 res = ipanema.optimize(fcn, pars, fcn_args=(X, Y, Z), method='minuit',
                        tol=1, verbose=False, timeit=True)
-print(res)
 
 
 # create a nice plot {{{
@@ -321,4 +320,5 @@ plt.show()
 
 # }}}
 
-# vim: fdm=marker ts=2 sw=2 sts=2 sr noet expandtab
+
+# vim: fdm=marker ts=2 sw=2 sts=2 sr et
